@@ -420,18 +420,3 @@ p{margin:0 0 1rem;color:var(--muted)}
 .brand img.site-logo{max-height:68px}
 .footer-logo{max-height:52px}
 @media (max-width:680px){.brand img.site-logo{max-height:64px}.footer-logo{max-height:52px}}
-
-
-/* v22 header + install refinements */
-.header-inner{flex-wrap:nowrap}
-.brand{flex:0 0 auto}
-.nav{flex:1 1 auto;justify-content:flex-end}
-#install-app-btn.btn-primary{color:#1b1102}
-@media (max-width:680px){
-  .header-inner{gap:.6rem;align-items:center}
-  .nav{width:auto;gap:.2rem;justify-content:flex-end;flex-wrap:wrap}
-  .nav a{padding:.5rem .72rem;font-size:.95rem}
-  .brand img.site-logo{max-height:46px}
-}
-.brand img.site-logo{max-height:52px}
-.footer-logo{max-height:52px}
